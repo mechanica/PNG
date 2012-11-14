@@ -1,0 +1,29 @@
+{
+  "name": "mech-png",
+  "version": "0.0.1",
+  "description": "Basic PNG encoder. Building PNG by adding custom chunks and bitmap data.",
+  "main": "lib/packer.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "crc32": "~0.2.2",
+    "vows": "~0.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/vows/bin/vows --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mechanica/PNG"
+  },
+  "keywords": [
+    "png",
+    "encoder",
+    "bitmap",
+    "buffer"
+  ],
+  "author": "Kirill Enykeev <enykeev@gmail.com>",
+  "license": "BSD"
+}
